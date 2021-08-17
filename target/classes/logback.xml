@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="fileAppender" class="ch.qos.logback.core.FileAppender">
+                <file>myLogFile.log</file>
+<!--        <file>D:\Programming\JAVA ADVACED by Rabindra Bhai\myLogFile\myLogFile.log</file>-->
+        <append>true</append>
+        <encoder>
+            <pattern>%d [%thread] %-5level  %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <!--        <file>myLogFile.log</file>-->
+        <encoder>
+            <pattern>%d [%thread] %-5level  %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- TRACE (FATAL | DEBUG) INFO WARN ERROR
+    production env : WARN or ERROR -->
+    <root level="INFO">
+        <appender-ref ref="fileAppender" />
+        <appender-ref ref="consoleAppender" />
+    </root>
+</configuration>

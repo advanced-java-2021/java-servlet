@@ -4,25 +4,56 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
   <servlet>
-    <servlet-name>testServlet</servlet-name>
-    <servlet-class>com.java.servletBasics.TestServlets</servlet-class>
+    <servlet-name>homePageServlet</servlet-name>
+    <servlet-class>com.java.servletBasics.HomePageServlet</servlet-class>
   </servlet>
 
   <servlet>
-    <servlet-name>testServlet1</servlet-name>
-    <servlet-class>com.java.servletBasics.TestServlets1</servlet-class>
+    <servlet-name>aboutUsPageServlet</servlet-name>
+    <servlet-class>com.java.servletBasics.AboutUsPageServlet</servlet-class>
   </servlet>
 
 
-
   <servlet-mapping>
-    <servlet-name>testServlet</servlet-name>
-    <url-pattern>/name</url-pattern>
+    <servlet-name>homePageServlet</servlet-name>
+    <url-pattern>/home</url-pattern>
   </servlet-mapping>
 
   <servlet-mapping>
-    <servlet-name>testServlet1</servlet-name>
-    <url-pattern>/name1</url-pattern>
+    <servlet-name>aboutUsPageServlet</servlet-name>
+    <url-pattern>/about-us</url-pattern>
   </servlet-mapping>
+
+  <filter>
+    <filter-name>ApplicationFilter</filter-name>
+    <filter-class>com.java.servletFilters.ApplicationFilter</filter-class>
+  </filter>
+
+  <filter>
+    <filter-name>HomeFilter</filter-name>
+    <filter-class>com.java.servletFilters.HomeFilter</filter-class>
+  </filter>
+
+  <filter>
+    <filter-name>AboutUsFilter</filter-name>
+    <filter-class>com.java.servletFilters.AboutFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>ApplicationFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>HomeFilter</filter-name>
+    <url-pattern>/home</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>AboutUsFilter</filter-name>
+    <url-pattern>/about-us</url-pattern>
+  </filter-mapping>
+
 </web-app>
