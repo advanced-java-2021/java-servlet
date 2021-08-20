@@ -5,6 +5,14 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  <listener>
+    <listener-class>com.java.servletListners.AppContextListener</listener-class>
+  </listener>
+
+  <listener>
+    <listener-class>com.java.servletListners.RequestContextListener</listener-class>
+  </listener>
+
   <servlet>
     <servlet-name>homePageServlet</servlet-name>
     <servlet-class>com.java.servletBasics.HomePageServlet</servlet-class>
