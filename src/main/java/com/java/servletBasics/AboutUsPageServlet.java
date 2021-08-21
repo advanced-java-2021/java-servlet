@@ -15,7 +15,7 @@ public class AboutUsPageServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // super.service(req, resp);
 //        System.out.println(this.getClass()+ " service executed");
-        LOGGER.info(this.getClass()+" service executed  logging");
+        LOGGER.info("{}",this.getClass());
 
         resp.getWriter().write("about us page");
     }
