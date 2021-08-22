@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8238b305-2b9b-4dd7-8fe9-f584073b034d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/servletBasics/HomePageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/servletBasics/HomePageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/servletFilters/ApplicationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/servletFilters/ApplicationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/servletBasics/AboutUsPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/servletBasics/AboutUsPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/servletBasics/HomePageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/servletBasics/HomePageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/servletFilters/ApplicationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/servletFilters/ApplicationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletBasics/AboutUsPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletBasics/AboutUsPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletBasics/HomePageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletBasics/HomePageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletFilters/ApplicationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/com/java/servletFilters/ApplicationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servletBasics/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletBasics/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1voaCfcyFMNJBKTdrFKgnPk6g5M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.servletFilters" />
+      <recent name="com.java.servletBasics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\JAVA ADVACED by Rabindra Bhai\servletBasics\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Remote.tomcat_debug">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.servletBasics.AppMain" />
+      <module name="servletBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.servletBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="TestServlets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.servletBasics.TestServlets" />
+      <module name="servletBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.servletBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="tomcat_debug" type="Remote">
+      <module name="servletBasics" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AppMain" />
+      <item itemvalue="Application.TestServlets" />
+      <item itemvalue="Remote.tomcat_debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppMain" />
+        <item itemvalue="Application.TestServlets" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8238b305-2b9b-4dd7-8fe9-f584073b034d" name="Default Changelist" comment="" />
+      <created>1627230771252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627230771252</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="57" width="1134" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629627753911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="219" y="57" width="1134" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1629627753911" />
+    <state x="527" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1629427924414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1629427924414" />
+    <state x="464" y="39" width="998" height="745" key="#xdebugger.evaluate" timestamp="1629628015774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="39" width="998" height="745" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1629628015774" />
+    <state width="1481" height="261" key="GridCell.Tab.0.bottom" timestamp="1629628153784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629628153784" />
+    <state width="1481" height="261" key="GridCell.Tab.0.center" timestamp="1629628153784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629628153784" />
+    <state width="1481" height="261" key="GridCell.Tab.0.left" timestamp="1629628153783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629628153783" />
+    <state width="1481" height="261" key="GridCell.Tab.0.right" timestamp="1629628153784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629628153784" />
+    <state width="1481" height="261" key="GridCell.Tab.1.bottom" timestamp="1629628153785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629628153785" />
+    <state width="1481" height="261" key="GridCell.Tab.1.center" timestamp="1629628153784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1629628153784" />
+    <state width="1481" height="261" key="GridCell.Tab.1.left" timestamp="1629628153784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1629628153784" />
+    <state width="1481" height="261" key="GridCell.Tab.1.right" timestamp="1629628153785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1629628153785" />
+    <state x="138" y="0" key="SettingsEditor" timestamp="1627753308140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="138" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627753308140" />
+    <state x="0" y="0" key="new project wizard" timestamp="1627717560801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1627717560801" />
+  </component>
+</project>
