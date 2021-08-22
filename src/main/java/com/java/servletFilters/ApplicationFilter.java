@@ -1,6 +1,9 @@
 package com.java.servletFilters;
 
 
+import com.java.servletBasics.HomePageServlet;
+import org.slf4j.LoggerFactory;
+
 import javax.servlet.*;
 import java.io.IOException;
 // what filter do in servlet?
@@ -14,13 +17,17 @@ import java.io.IOException;
 // destroy : runs only once (any logic within filter only runs one time)
 
 public class ApplicationFilter implements Filter {
+    private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(ApplicationFilter.class);
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         // one time
+        LOGGER.info("filter() executed {}","init()");
     }
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+        LOGGER.info("filter() executed {}","doFilter()");
         System.out.println("before "+this.getClass());
         filterChain.doFilter(servletRequest,servletResponse);
         System.out.println("after "+this.getClass());
@@ -29,5 +36,6 @@ public class ApplicationFilter implements Filter {
     @Override
     public void destroy() {
         // one time
+        LOGGER.info("filter() executed {}","destroy()");
     }
 }
