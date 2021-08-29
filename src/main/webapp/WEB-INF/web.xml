@@ -5,6 +5,17 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  
+  <context-param>
+    <param-name>a_context</param-name>
+    <param-value>10</param-value>
+  </context-param>
+  <context-param>
+    <param-name>b_context</param-name>
+    <param-value>20</param-value>
+  </context-param>
+
+
   <listener>
     <listener-class>com.java.servletListners.AppContextListener</listener-class>
   </listener>
@@ -33,6 +44,24 @@
     <servlet-name>queryString</servlet-name>
     <servlet-class>com.java.servletBasics.QueryString</servlet-class>
   </servlet>
+
+  <servlet>
+    <servlet-name>paramServlet</servlet-name>
+    <servlet-class>com.java.servletBasics.ServletParams</servlet-class>
+    <init-param>
+      <param-name>x_servlet</param-name>
+      <param-value>100</param-value>
+    </init-param>
+    <init-param>
+      <param-name>y_servlet</param-name>
+      <param-value>200</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>paramServlet</servlet-name>
+    <url-pattern>/param</url-pattern>
+  </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>homePageServlet</servlet-name>
