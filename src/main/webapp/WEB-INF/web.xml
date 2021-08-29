@@ -29,6 +29,10 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
 
+  <servlet>
+    <servlet-name>queryString</servlet-name>
+    <servlet-class>com.java.servletBasics.QueryString</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>homePageServlet</servlet-name>
@@ -43,6 +47,11 @@
   <servlet-mapping>
     <servlet-name>servletLifeCycle</servlet-name>
     <url-pattern>/servlet-life-cycle</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>queryString</servlet-name>
+    <url-pattern>/query</url-pattern>
   </servlet-mapping>
 
   <filter>
