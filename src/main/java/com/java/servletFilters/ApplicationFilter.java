@@ -22,7 +22,7 @@ public class ApplicationFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         // one time
-        LOGGER.info("filter() executed {}","init()");
+        LOGGER.info("filter() executed {}","init() - application filter");
     }
 
     @Override

@@ -1,0 +1,70 @@
+2021-08-31 23:02:20,283 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init()
+2021-08-31 23:02:20,299 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-08-31 23:02:24,105 [http-nio-8080-exec-1] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-08-31 23:02:24,121 [http-nio-8080-exec-1] INFO   c.j.servletBasics.HomePageServlet - class com.java.servletBasics.HomePageServlet service executed
+2021-09-01 19:49:28,416 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init()
+2021-09-01 19:49:28,416 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-01 19:50:16,922 [http-nio-8080-exec-1] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-01 19:50:16,923 [http-nio-8080-exec-1] INFO   c.j.servletBasics.HomePageServlet - class com.java.servletBasics.HomePageServlet service executed
+2021-09-01 20:01:49,688 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-01 20:01:49,688 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-01 20:01:49,992 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-01 20:01:49,998 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-01 20:01:49,998 [localhost-startStop-2] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-01 20:34:11,930 [http-nio-8080-exec-11] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-01 20:34:11,932 [http-nio-8080-exec-11] INFO   c.j.servletBasics.HomePageServlet - class com.java.servletBasics.HomePageServlet service executed
+2021-09-02 10:40:27,165 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 10:40:27,181 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 10:40:27,181 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 10:40:49,614 [http-nio-8080-exec-2] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 20:12:52,765 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 20:12:52,812 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 20:12:52,827 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 20:13:22,269 [http-nio-8080-exec-1] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:19:51,746 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:19:51,761 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:19:51,761 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:19:52,652 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:19:52,667 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:19:52,667 [localhost-startStop-2] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 22:20:40,500 [http-nio-8080-exec-8] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:21:00,486 [localhost-startStop-3] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:21:00,486 [localhost-startStop-3] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:21:00,486 [localhost-startStop-3] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:21:05,648 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:21:05,648 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:21:05,648 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 22:21:09,460 [http-nio-8080-exec-1] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:22:06,457 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:22:06,457 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:22:06,457 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:22:07,347 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:22:07,363 [localhost-startStop-2] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:22:07,363 [localhost-startStop-2] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 22:22:13,518 [http-nio-8080-exec-10] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:28:37,802 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:28:37,802 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:28:37,802 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:28:38,571 [localhost-startStop-3] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:28:38,571 [localhost-startStop-3] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:28:38,571 [localhost-startStop-3] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 22:28:43,825 [http-nio-8080-exec-16] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:38,804 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:31:38,804 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:31:38,804 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:31:39,780 [localhost-startStop-4] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:31:39,780 [localhost-startStop-4] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:31:39,780 [localhost-startStop-4] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
+2021-09-02 22:31:44,625 [http-nio-8080-exec-18] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:48,119 [http-nio-8080-exec-22] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:48,920 [http-nio-8080-exec-1] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:49,651 [http-nio-8080-exec-19] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:50,177 [http-nio-8080-exec-25] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:31:50,615 [http-nio-8080-exec-26] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:35:38,568 [http-nio-8080-exec-28] INFO   c.j.s.ApplicationFilter - filter() executed doFilter()
+2021-09-02 22:50:03,491 [localhost-startStop-6] INFO   c.j.s.ServletLifeCycleServlet - method executed destroy()
+2021-09-02 22:50:03,491 [localhost-startStop-6] INFO   c.j.s.ApplicationFilter - filter() executed destroy() - home filter
+2021-09-02 22:50:03,491 [localhost-startStop-6] INFO   c.j.s.ApplicationFilter - filter() executed destroy()
+2021-09-02 22:50:08,071 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - home filter
+2021-09-02 22:50:08,087 [localhost-startStop-1] INFO   c.j.s.ApplicationFilter - filter() executed init() - application filter
+2021-09-02 22:50:08,087 [localhost-startStop-1] INFO   c.j.s.ServletLifeCycleServlet - method executed init()
