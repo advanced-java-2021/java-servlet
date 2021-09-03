@@ -41,10 +41,20 @@ public class StudentServlet extends HttpServlet {
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // super.doPut(req, resp);
-        String id = req.getParameter("name");
+        String name = req.getParameter("name");
         InputStream is = req.getInputStream();
         System.out.println("is type : "+this.getClass());
         Student s = JacksonUtils.toObject(is, Student.class);
         resp.getWriter().write( " put method "+ s.getName());
+    }
+
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // super.doDelete(req, resp);
+        String name = req.getParameter("name");
+        InputStream is = req.getInputStream();
+        Student s = JacksonUtils.toObject(is, Student.class);
+        resp.getWriter().write(s.getName()+" delete method ");
+
     }
 }
