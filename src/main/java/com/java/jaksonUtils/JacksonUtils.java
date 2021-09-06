@@ -3,6 +3,7 @@ package com.java.jaksonUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.java.model.Student;
+import com.java.signupAndLogin.User;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -57,5 +58,12 @@ public class JacksonUtils {
         s = toObject(is, Student.class);
         System.out.println(s.hashCode());
         System.out.println(s);
+
+        User u = new User();
+        u.setEmail("abc@email.com");
+        u.setId(UUID.randomUUID().toString());
+        u.setPassword("123@123");
+        String data = toJson(u);
+        System.out.println(data);
     }
 }
