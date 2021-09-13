@@ -1,4 +1,4 @@
-package com.java.signupAndLogin;
+package com.java.api.models;
 
 public class User {
     private String id;
@@ -29,3 +29,4 @@ public class User {
         this.password = password;
     }
 }
+
